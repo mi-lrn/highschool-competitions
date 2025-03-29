@@ -55,4 +55,4 @@ const data = [
          competitionsContainer.appendChild(competitionItem);
      });
  }
- window.onload = showAllCompetitions;
+ window.addEventListener('load', showAllCompetitions);
