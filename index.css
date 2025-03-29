@@ -6,13 +6,12 @@ body {
 }
 
 .search-container {
-    max-width: 600px;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 
 #search-bar {
-    width: 100%;
+    width: 96.5vw;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -22,8 +21,7 @@ body {
 .results-container {
     position: absolute;
     top: 40px;
-    left: 0;
-    right: 0;
+    width: 100%;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
