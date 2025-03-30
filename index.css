@@ -4,12 +4,10 @@ body {
     margin: 0;
     padding: 20px;
 }
-
 .search-container {
     margin: auto;
     position: absolute;
 }
-
 #search-bar {
     width: 96.5vw;
     padding: 10px;
@@ -17,7 +15,6 @@ body {
     border-radius: 5px;
     font-size: 16px;
 }
-
 .results-container {
     position: absolute;
     top: 40px;
@@ -29,29 +26,23 @@ body {
     overflow-y: auto;
     z-index: 1000;
 }
-
 .result-box {
     padding: 10px;
     border-bottom: 1px solid #eee;
     cursor: pointer;
 }
-
 .result-box:last-child {
     border-bottom: none;
 }
-
 .result-box:hover {
     background-color: #f0f0f0;
 }
-
 .result-title {
     font-weight: bold;
 }
-
 .result-description {
     color: #666;
 }
-
 .competitions-container {
     margin-top: 10px;
     padding: 10px;
