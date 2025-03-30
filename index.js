@@ -1,5 +1,8 @@
 const data = [
-     { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: ["a", "b", "c"] },
+     { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: ["BioGENEius Challenge", "Brain Bee", "International Genetically Engineered Machine (iGEM)", "USA Biology Olympiad (USABO)"] },
+     { title: "Chemistry", description: "Focuses on the scientific study of matter, including its composition, structure, properties, and the interactions that occur at atomic and molecular levels.", competitions: ["International Chemistry Quiz", "USA National Chemistry Olympiad"] },
+     { title: "Science", description: "Focuses on the structure and behavior of the physical and natural world, through observation and experimentation.", competitions: ["Disney Dreamers", "National Science Bowl", "Science Olympiad"] },
+     { title: "STEM Research", description: "Focuses on research projects that involve science, technology, engineering, and mathematics, encouraging students to apply their knowledge and creativity in these areas.", competitions: ["Conrad Challenge", "Disney Dreamers", "Junior Science and Humanities Symposium", "National Science Bowl", "Plant the Moon Challenge", "Regeneron International Science and Engineering Fair", "Regeneron Science Talent Search", "Science Olympiad"] },
  ];
  function filterResults() {
      const query = document.getElementById('search-bar').value.toLowerCase();
