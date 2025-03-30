@@ -1,5 +1,5 @@
 const data = [
-     { title: "Biology", description: "This is an Example", competitions: ["a", "b", "c"] },
+     { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: ["a", "b", "c"] },
  ];
  function filterResults() {
      const query = document.getElementById('search-bar').value.toLowerCase();
