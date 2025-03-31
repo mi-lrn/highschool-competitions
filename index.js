@@ -56,6 +56,7 @@ const data = [
         }
         const nameSpan = document.createElement('span');
         nameSpan.textContent = name + ': ';
+        nameSpan.style.fontWeight = 'bold';
         const descriptionSpan = document.createElement('span');
         descriptionSpan.textContent = descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
@@ -97,6 +98,7 @@ const data = [
         }
         const nameSpan = document.createElement('span');
         nameSpan.textContent = name + ': ';
+        nameSpan.style.fontWeight = 'bold';
         const descriptionSpan = document.createElement('span');
         descriptionSpan.textContent = descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
