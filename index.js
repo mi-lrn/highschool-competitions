@@ -57,7 +57,7 @@ const data = [
         const nameSpan = document.createElement('span');
         nameSpan.textContent = name + ': ';
         const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = descriptionBeforeUrl;
+        descriptionSpan.textContent = descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
         var urlLink;
         if (url) {
@@ -97,7 +97,7 @@ const data = [
         const nameSpan = document.createElement('span');
         nameSpan.textContent = name + ': ';
         const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = descriptionBeforeUrl;
+        descriptionSpan.textContent = descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
         var urlLink;
         if (url) {
