@@ -70,6 +70,7 @@ const data = [
         if (urlLink) {
             competitionItem.appendChild(urlLink);
         }
+        competitionsContainer.appendChild(document.createElement('br'));
         competitionsContainer.appendChild(competitionItem);
      });
  }
@@ -110,6 +111,7 @@ const data = [
         if (urlLink) {
             competitionItem.appendChild(urlLink);
         }
+        competitionsContainer.appendChild(document.createElement('br'));
         competitionsContainer.appendChild(competitionItem);
      });
  }
