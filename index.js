@@ -44,14 +44,32 @@ const data = [
      competitionsContainer.innerHTML = '<strong>Competitions:</strong><br>';  
      competitions.forEach(competition => {
         const competitionItem = document.createElement('div');
-        const [name, description] = competition.split(':');
+        const colonIndex = competition.indexOf(':');
+        const name = competition.substring(0, colonIndex).trim();
+        const description = competition.substring(colonIndex + 1).trim();
+        const urlIndex = description.indexOf('http');
+        let descriptionBeforeUrl = description;
+        let url = '';
+        if (urlIndex !== -1) {
+            descriptionBeforeUrl = description.substring(0, urlIndex).trim();
+            url = description.substring(urlIndex).trim();
+        }
         const nameSpan = document.createElement('span');
-        nameSpan.textContent = name + ':';
+        nameSpan.textContent = name + ': ';
         const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = description;
+        descriptionSpan.textContent = descriptionBeforeUrl;
         descriptionSpan.style.fontStyle = 'italic';
+        var urlLink;
+        if (url) {
+            urlLink = document.createElement('a');
+            urlLink.href = url;
+            urlLink.textContent = url;
+        }
         competitionItem.appendChild(nameSpan);
         competitionItem.appendChild(descriptionSpan);
+        if (urlLink) {
+            competitionItem.appendChild(urlLink);
+        }
         competitionsContainer.appendChild(competitionItem);
      });
  }
@@ -66,14 +84,32 @@ const data = [
      });
      allCompetitions.forEach(competition => {
         const competitionItem = document.createElement('div');
-        const [name, description] = competition.split(':');
+        const colonIndex = competition.indexOf(':');
+        const name = competition.substring(0, colonIndex).trim();
+        const description = competition.substring(colonIndex + 1).trim();
+        const urlIndex = description.indexOf('http');
+        let descriptionBeforeUrl = description;
+        let url = '';
+        if (urlIndex !== -1) {
+            descriptionBeforeUrl = description.substring(0, urlIndex).trim();
+            url = description.substring(urlIndex).trim();
+        }
         const nameSpan = document.createElement('span');
-        nameSpan.textContent = name + ':';
+        nameSpan.textContent = name + ': ';
         const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = description;
+        descriptionSpan.textContent = descriptionBeforeUrl;
         descriptionSpan.style.fontStyle = 'italic';
+        var urlLink;
+        if (url) {
+            urlLink = document.createElement('a');
+            urlLink.href = url;
+            urlLink.textContent = url;
+        }
         competitionItem.appendChild(nameSpan);
         competitionItem.appendChild(descriptionSpan);
+        if (urlLink) {
+            competitionItem.appendChild(urlLink);
+        }
         competitionsContainer.appendChild(competitionItem);
      });
  }
