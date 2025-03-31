@@ -67,4 +67,5 @@ body {
     border-radius: 5px;
     background-color: rgb(158, 204, 231);
     font-size: large;
+    overflow-wrap: break-word;
 }
