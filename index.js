@@ -43,9 +43,16 @@ const data = [
      const competitionsContainer = document.getElementById('competitions');
      competitionsContainer.innerHTML = '<strong>Competitions:</strong><br>';  
      competitions.forEach(competition => {
-         const competitionItem = document.createElement('div');
-         competitionItem.textContent = competition;
-         competitionsContainer.appendChild(competitionItem);
+        const competitionItem = document.createElement('div');
+        const [name, description] = competition.split(':');
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = name + ':';
+        const descriptionSpan = document.createElement('span');
+        descriptionSpan.textContent = description;
+        descriptionSpan.style.fontStyle = 'italic';
+        competitionItem.appendChild(nameSpan);
+        competitionItem.appendChild(descriptionSpan);
+        competitionsContainer.appendChild(competitionItem);
      });
  }
  function showAllCompetitions() {
@@ -58,9 +65,16 @@ const data = [
          });
      });
      allCompetitions.forEach(competition => {
-         const competitionItem = document.createElement('div');
-         competitionItem.textContent = competition;
-         competitionsContainer.appendChild(competitionItem);
+        const competitionItem = document.createElement('div');
+        const [name, description] = competition.split(':');
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = name + ':';
+        const descriptionSpan = document.createElement('span');
+        descriptionSpan.textContent = description;
+        descriptionSpan.style.fontStyle = 'italic';
+        competitionItem.appendChild(nameSpan);
+        competitionItem.appendChild(descriptionSpan);
+        competitionsContainer.appendChild(competitionItem);
      });
  }
  window.addEventListener('load', showAllCompetitions);
