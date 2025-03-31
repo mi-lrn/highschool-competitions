@@ -57,14 +57,16 @@ const data = [
         const nameSpan = document.createElement('span');
         nameSpan.textContent = name + ': ';
         nameSpan.style.fontWeight = 'bold';
+        nameSpan.style.display = 'block';
         const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = descriptionBeforeUrl + " ";
+        descriptionSpan.textContent = "Description: " + descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
+        descriptionSpan.style.display = 'block';
         var urlLink;
         if (url) {
             urlLink = document.createElement('a');
             urlLink.href = url;
-            urlLink.textContent = url;
+            urlLink.textContent = "Link: " + url;
         }
         competitionItem.appendChild(nameSpan);
         competitionItem.appendChild(descriptionSpan);
@@ -99,14 +101,16 @@ const data = [
         const nameSpan = document.createElement('span');
         nameSpan.textContent = name + ': ';
         nameSpan.style.fontWeight = 'bold';
+        nameSpan.style.display = 'block';
         const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = descriptionBeforeUrl + " ";
+        descriptionSpan.textContent = "Description: " + descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
+        descriptionSpan.style.display = 'block';
         var urlLink;
         if (url) {
             urlLink = document.createElement('a');
             urlLink.href = url;
-            urlLink.textContent = url;
+            urlLink.textContent = "Link: " + url;
         }
         competitionItem.appendChild(nameSpan);
         competitionItem.appendChild(descriptionSpan);
