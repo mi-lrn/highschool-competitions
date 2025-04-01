@@ -13,6 +13,11 @@ body {
     align-items: flex-start;
     height: 100vh;
 }
+h1 {
+    text-align: center;
+    color: #ccc;
+    font-family: 'SpaceGrotesk-Bold', sans-serif;
+}
 .search-container {
     width: 100%;
     position: relative;
@@ -33,7 +38,7 @@ body {
 }
 .results-container {
     position: absolute;
-    top: 50px;
+    top: 105px;
     width: 100%;
     background-color: rgb(158, 204, 231);
     border: 1px solid #ccc;
