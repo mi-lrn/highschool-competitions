@@ -32,9 +32,13 @@ const data = [
  async function fetchCompetitions(dictionaries) {
     const response = await fetch('competitions.json');
     const competitionsData = await response.json();
+    try {
     dictionaries.forEach(dictionary => {
          dictionary.competitions = competitionsData.competitions[dictionary.title];
     });
+    } catch {
+    //Do Nothing
+    }
  }
  await fetchCompetitions(data);
  function filterResults() {
