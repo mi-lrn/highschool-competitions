@@ -60,6 +60,7 @@ const data = [
         nameSpan.textContent = name + ': ';
         nameSpan.style.fontWeight = 'bold';
         nameSpan.style.display = 'block';
+        nameSpan.classList.add('SpaceGrotesk-Bold');
         const descriptionSpan = document.createElement('span');
         descriptionSpan.textContent = "Description: " + descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
@@ -104,6 +105,7 @@ const data = [
         nameSpan.textContent = name + ': ';
         nameSpan.style.fontWeight = 'bold';
         nameSpan.style.display = 'block';
+        nameSpan.classList.add('SpaceGrotesk-Bold');
         const descriptionSpan = document.createElement('span');
         descriptionSpan.textContent = "Description: " + descriptionBeforeUrl + " ";
         descriptionSpan.style.fontStyle = 'italic';
