@@ -40,7 +40,6 @@ const data = [
     //Do Nothing
     }
  }
- await fetchCompetitions(data);
  function filterResults() {
      const query = document.getElementById('search-bar').value.toLowerCase();
      const resultsContainer = document.getElementById('results');
@@ -160,4 +159,7 @@ const data = [
         }
      });
  }
- window.addEventListener('load', showAllCompetitions);
+ window.addEventListener('load', async () => {
+    await fetchCompetitions(data);
+    showAllCompetitions();
+ });
