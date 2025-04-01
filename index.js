@@ -38,6 +38,7 @@ const data = [
              resultsContainer.style.display = 'none';
          }
      } else {
+         resultsContainer.style.display = 'none';
          showAllCompetitions();
      }
  }
