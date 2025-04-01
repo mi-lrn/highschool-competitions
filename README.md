@@ -10,6 +10,8 @@ https://mi-lrn.github.io/highschool-competitions/
 - To search for specific competitions, simply ctr/cmd f and search for the competition by name.
 - Don't see your favorite competition? Check contribution section below.
 
+- Like this repository? --> Please leave us a ★
+
 ## What does everything mean?
 
 ### Difficulties
