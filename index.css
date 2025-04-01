@@ -69,7 +69,7 @@ h1 {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #FFFFFF;
+    background-color: rgb(124, 124, 124);
     font-size: large;
     overflow-wrap: break-word;
 }
