@@ -69,3 +69,10 @@ body {
     font-size: large;
     overflow-wrap: break-word;
 }
+@font-face {
+    font-family: 'SpaceGrotesk-Bold';
+    src: url('assets/SpaceGrotesk-Bold.ttf') format('truetype');
+}
+.SpaceGrotesk-Bold {
+    font-family: 'SpaceGrotesk-Bold', sans-serif;
+}
