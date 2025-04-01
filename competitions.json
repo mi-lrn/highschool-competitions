@@ -1,0 +1,13 @@
+{
+    "competitions": {
+        "Art": [
+            "Art Competition 1",
+            "Art Competition 2",
+            "Art Competition 3"
+        ],
+        "Biology": [
+            "Biology Competition 1",
+            "Biology Competition 2"
+        ]
+    }
+}
