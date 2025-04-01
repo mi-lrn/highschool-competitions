@@ -39,7 +39,6 @@ const data = [
          //Do Nothing
          };
     });
-    console.log(dictionaries);
  }
  function filterResults() {
      const query = document.getElementById('search-bar').value.toLowerCase();
