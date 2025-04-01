@@ -32,13 +32,14 @@ const data = [
  async function fetchCompetitions(dictionaries) {
     const response = await fetch('competitions.json');
     const competitionsData = await response.json();
-    try {
     dictionaries.forEach(dictionary => {
+         try {
          dictionary.competitions = competitionsData.competitions[dictionary.title];
+         } catch {
+         //Do Nothing
+         };
     });
-    } catch {
-    //Do Nothing
-    }
+    console.log(dictionaries);
  }
  function filterResults() {
      const query = document.getElementById('search-bar').value.toLowerCase();
