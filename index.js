@@ -94,10 +94,13 @@ const data = [
              allCompetitions.add(competition);
          });
      });
+     var names = [];
      allCompetitions.forEach(competition => {
-        const competitionItem = document.createElement('div');
         const colonIndex = competition.indexOf(':');
         const name = competition.substring(0, colonIndex).trim();
+        if (!names.includes(name)) {
+        names.push(name)
+        const competitionItem = document.createElement('div');
         const description = competition.substring(colonIndex + 1).trim();
         const urlIndex = description.indexOf('http');
         let descriptionBeforeUrl = description;
@@ -128,6 +131,7 @@ const data = [
         }
         competitionsContainer.appendChild(document.createElement('br'));
         competitionsContainer.appendChild(competitionItem);
+        }
      });
  }
  window.addEventListener('load', showAllCompetitions);
