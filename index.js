@@ -3,7 +3,7 @@ const data = [
      
      { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: [] },
      
-     { title: "Business & Finance", description: "Focuses on applying business strategies, financial analysis, and decision-making skills to solve real-world challenges, often involving presentations and simulations of corporate environments.", competitions: ["Wharton Global High School Investment Competition (Difficulty ★★★★☆): Teams manage a virtual portfolio, making investment decisions based on market conditions and economic factors. Teams compete for the best portfolio performance while gaining valuable experience in financial analysis and decision-making. Open to grades 9-12 https://globalyouth.wharton.upenn.edu/competitions/investment-competition/"] },
+     { title: "Business & Finance", description: "Focuses on applying business strategies, financial analysis, and decision-making skills to solve real-world challenges, often involving presentations and simulations of corporate environments.", competitions: [] },
      
      { title: "Chemistry", description: "Focuses on the scientific study of matter, including its composition, structure, properties, and the interactions that occur at atomic and molecular levels.", competitions: ["USA National Chemistry Olympiad: Challenges students with advanced chemistry concepts through rigorous exams, with top performers advancing to represent the US at the International Chemistry Olympiad. Open to grades 9-12 https://www.acs.org/education/olympiad.html"] },
      
