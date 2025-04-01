@@ -40,7 +40,7 @@ h1 {
     position: absolute;
     top: 105px;
     width: 100%;
-    background-color: rgb(158, 204, 231);
+    background-color: rgb(124, 124, 124);
     border: 1px solid #ccc;
     border-radius: 5px;
     max-height: 300px;
@@ -56,7 +56,7 @@ h1 {
     border-bottom: none;
 }
 .result-box:hover {
-    background-color: rgb(71, 177, 238);
+    background-color: rgb(87, 87, 87);
 }
 .result-title {
     font-weight: bold;
@@ -70,7 +70,7 @@ h1 {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgb(158, 204, 231);
+    background-color: rgb(124, 124, 124);
     font-size: large;
     overflow-wrap: break-word;
 }
