@@ -1,6 +1,8 @@
 const data = [
      { title: "Aerospace Engineering", description: "Focuses on the design, development, testing, and production of aircrafts, spacecrafts, and related systems.", competitions: [] },
      
+     { title: "Architecture", description: "Focuses on the art and science of designing and constructing buildings and structures, blending functionality and aesthetics to create spaces that serve human needs.", competitions: [] },
+     
      { title: "Art", description: "Focuses on expressing creativity, emotions, and ideas through various mediums to engage the senses and provoke emotional responses.", competitions: [] },
      
      { title: "Astronomy", description: "Focuses on the study of celestial objects, space, and the universe as a whole, exploring the origin and behavior of stars, planets, and galaxies.", competitions: [] },
