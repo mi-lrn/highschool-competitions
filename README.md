@@ -1,7 +1,7 @@
 # An Open Source Search Engine For High School Competitions (Beta)
 https://mi-lrn.github.io/highschool-competitions/
 
-#### Purpose: Allow everyone to explore high school opportunities in all categories and difficulties
+#### Purpose: Allow U.S. students to explore high school opportunities in all categories and difficulties
 
 ## Usage:
 
