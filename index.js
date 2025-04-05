@@ -8,6 +8,8 @@ const data = [
      { title: "Chemistry", description: "Focuses on the scientific study of matter, including its composition, structure, properties, and the interactions that occur at atomic and molecular levels.", competitions: [] },
      
      { title: "Civics Knowledge & Engagement", description: "Focuses on knowledge of government, political processes, history, and problem-solving related to civic duties and responsibilities.", competitions: [] },
+
+     { title: "Computer Science", description: "Focuses on algorithms, data structures, and the principles of computation with tasks including software development, app development, and problem solving.", competitions: [] },
      
      { title: "Cybersecurity", description: "Focuses on skills in protecting systems, networks, and data, by identifying vulnerabilities, defending against attacks, and solving real-world security problems.", competitions: [] },
      
