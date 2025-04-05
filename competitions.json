@@ -39,7 +39,6 @@
             "USA Computing Olympiad (Difficulty ★★★★★): Prestigious competitive programming contest for students that challenges participants to solve complex algorithmic problems and serves as a pathway to the International Olympiad in Informatics. Open to all ages and grades; however, only pre-college students are eligible for the IOI https://usaco.org/"
         ],
         "Cybersecurity": [
-            "National Cyber League: Competitions are held multiple times a year where participants solve cybersecurity problems and are scored based on accuracy and completion; participants are given a rank depending on where they place overall. Open to ages 13 and older https://nationalcyberleague.org/competition",
             "picoCTF - CMU Cybersecurity Competition (Difficulty ★★★★★): Participants solve problems through Capture The Flag (CTF) format in cryptography, reverse engineering, web exploitation, and forensics while developing real-world cybersecurity skills. Open to ages 13 and older https://picoctf.org/"
         ],
         "Economics": [
@@ -53,6 +52,7 @@
         "General": [
             "Destination Imagination: International program that fosters creativity, teamwork, and problem-solving skills in students. Participants work in teams to tackle open-ended challenges in various categories, including Science, Technology, Engineering, Arts, and Mathematics (STEAM). Open to grades K-12 https://www.destinationimagination.org/challenge-experience/",
             "Disney Dreamers Academy (Difficulty ★★★★☆): Empowers students to explore their dreams and career aspirations through mentorship, workshops, and networking opportunities. Participants gain hands-on experience and inspiration in various fields, preparing them for future success. Open to grades 9-12 https://www.disneydreamersacademy.com/", 
+            "National Academic League: Teams of students compete across a wide range of subjects through challenges that test teamwork and problem-solving. Students compete in head-to-head rounds, testing their quick recall and critical thinking in a fast-paced, quiz-style format. Open to grades 9-12 https://nationalacademicleague.org/",
             "National Science Bowl: Tests students’ knowledge in a competition where teams face-off in a fast-paced Q&A format, involving scientific topics such as biology, chemistry, earth science, physics, energy, and math. Open to grades 6-12 https://www.energy.gov/topics/national-science-bowl", 
             "Quiz Bowl: Academic competition where teams of students compete to answer questions across a wide range of subjects, including history, literature, science, fine arts, current events, popular culture, and sports. Using a buzzer system, teams rapidly respond to questions. Open to grades 6-12 https://www.naqt.com/about/quiz-bowl.html",
             "Regeneron International Science and Engineering Fair (ISEF): World's largest pre-college STEM research competition, where high school students present groundbreaking independent research across various scientific categories. Open to grades 9-12 and requires qualification from local and state fairs https://www.societyforscience.org/isef/", 
