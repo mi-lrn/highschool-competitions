@@ -1,4 +1,6 @@
 const data = [
+     { title: "Aerospace Engineering", description: "Focuses on the design, development, testing, and production of aircrafts, spacecrafts, and related systems.", competitions: [] },
+     
      { title: "Art", description: "Focuses on expressing creativity, emotions, and ideas through various mediums to engage the senses and provoke emotional responses.", competitions: [] },
      
      { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: [] },
