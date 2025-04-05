@@ -27,7 +27,7 @@ const data = [
      
      { title: "Physics", description: "Focuses on understanding the fundamental laws of nature, matter, energy, space, and time through observation, experimentation, and mathematical analysis.", competitions: [] },
      
-     { title: "Science", description: "Focuses on the structure and behavior of the physical and natural world, through observation and experimentation.", competitions: [] },
+     { title: "General", description: "Category for competitions that may encompass more than one subject.", competitions: [] },
      
      { title: "STEM Research", description: "Focuses on research projects that involve science, technology, engineering, and mathematics, encouraging students to apply their knowledge and creativity in these areas.", competitions: [] },
      
