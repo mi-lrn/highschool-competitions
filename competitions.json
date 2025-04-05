@@ -1,7 +1,8 @@
 {
     "competitions": {
         "Aerospace Engineering": [
-           "NSS Gerard K. O’Neill Space Settlement Contest: Annual competition that invites students to design and submit projects focused on concepts for free space settlements, permanent habitats located in space rather than on planets or moons. Participants can submit a variety of materials, including designs, research papers, essays, models, and artwork. Open to grades 12 and under https://space.nss.org/nss-space-settlement-contest/" 
+            "NASA App Development Challenge: Coding competition where students address real-world technical problems related to NASA's deep space exploration missions. Participants develop software applications that contribute to the Artemis program, aiming to land astronauts on the Moon and eventually Mars. Open to grades 6-12 https://www.nasa.gov/learning-resources/app-development-challenge/",
+            "NSS Gerard K. O’Neill Space Settlement Contest: Annual competition that invites students to design and submit projects focused on concepts for free space settlements, permanent habitats located in space rather than on planets or moons. Participants can submit a variety of materials, including designs, research papers, essays, models, and artwork. Open to grades 12 and under https://space.nss.org/nss-space-settlement-contest/" 
         ],
         "Art": [
             "Congressional Art Competition: Annual event that allows students from across the United States to showcase their artistic talents. Each congressional district hosts its own competition, with winning artworks displayed in the U.S. Capitol for one year. Open to grades 9-12 https://www.house.gov/educators-and-students/congressional-art-competition",
@@ -40,6 +41,7 @@
         ],
         "Computer Science": [
             "Congressional App Challenge (Difficulty ★★☆☆☆): Invites students in the U.S. to submit their apps to be judged by a congressman/woman; winners get their apps displayed in the U.S. Capitol. Open to grades 6-12 https://www.congressionalappchallenge.us/",
+            "NASA App Development Challenge: Coding competition where  students address real-world technical problems related to NASA's deep space exploration missions. Participants develop software applications that contribute to the Artemis program, aiming to land astronauts on the Moon and eventually Mars. Open to grades 6-12 https://www.nasa.gov/learning-resources/app-development-challenge/",
             "USA Computing Olympiad (Difficulty ★★★★★): Prestigious competitive programming contest for students that challenges participants to solve complex algorithmic problems and serves as a pathway to the International Olympiad in Informatics. Open to all ages and grades; however, only pre-college students are eligible for the IOI https://usaco.org/"
         ],
         "Cybersecurity": [
