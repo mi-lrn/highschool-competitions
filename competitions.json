@@ -31,6 +31,9 @@
             "VFW Voice of Democracy Program: Provides students with the unique opportunity to express themselves in regards to a democratic and patriotic-themed recorded essay based on this year's theme. Open to grades 9-12 https://www.vfw.org/community/youth-and-education/youth-scholarships", 
             "We The Students Scholarship Contest: Challenges students to write about a current event or issue related to the U.S. Constitution and their rights as citizens. Open to grades 8-12 (ages 14-19) https://studentscholarships.org/scholarship/9432/we-the-students-scholarship-contest"
         ],
+        "Computer Science": [
+            "USA Computing Olympiad: Prestigious competitive programming contest for high school students that challenges participants to solve complex algorithmic problems and serves as a pathway to the International Olympiad in Informatics. Open to all ages and grades; however, only pre-college students are eligible for the IOI https://usaco.org/"
+        ],
         "Cybersecurity": [
             "picoCTF - CMU Cybersecurity Competition (Difficulty ★★★★☆): Participants solve problems through Capture The Flag (CTF) format in cryptography, reverse engineering, web exploitation, and forensics while developing real-world cybersecurity skills. Open to ages 13 and older https://picoctf.org/"
         ],
