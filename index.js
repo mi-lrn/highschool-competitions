@@ -17,6 +17,8 @@ const data = [
      
      { title: "Film", description: "Focuses on showcasing creativity, storytelling, and technical skills through the production of original films, encouraging participants to craft compelling visuals within a set theme.", competitions: [] },
      
+     { title: "General", description: "Category for competitions that may encompass more than one subject.", competitions: [] },
+
      { title: "History", description: "Focuses on past events, people, and societies to understand their impact on the present and shape future decisions.", competitions: [] },
      
      { title: "Math", description: "Focuses on the study of numbers, shapes, patterns, and structures, using logical reasoning and quantitative methods to solve problems and describe relationships.", competitions: [] },
@@ -26,9 +28,7 @@ const data = [
      { title: "Nature & Environmental Science", description: "Focuses on natural ecosystems, wildlife, and the impact of human activity on the planet, with an emphasis on sustainability and conservation.", competitions: [] },
      
      { title: "Physics", description: "Focuses on understanding the fundamental laws of nature, matter, energy, space, and time through observation, experimentation, and mathematical analysis.", competitions: [] },
-     
-     { title: "General", description: "Category for competitions that may encompass more than one subject.", competitions: [] },
-     
+          
      { title: "STEM Research", description: "Focuses on research projects that involve science, technology, engineering, and mathematics, encouraging students to apply their knowledge and creativity in these areas.", competitions: [] },
      
      { title: "Theater", description: "Focuses on telling stories and conveying emotions through live performances, combining acting, dialogue, music, and stagecraft to engage and captivate an audience.", competitions: [] },
