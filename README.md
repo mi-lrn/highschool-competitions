@@ -3,6 +3,8 @@ https://mi-lrn.github.io/highschool-competitions/
 
 #### Purpose: Allow U.S. students to explore high school opportunities in all categories and difficulties
 
+#### Mantained by: mi-lrn and as-1609
+
 ## Usage:
 
 - To search for competitions by subject category, simply type in the subject in the search bar, and click on the subject you want to view.
