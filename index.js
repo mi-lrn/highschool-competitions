@@ -37,6 +37,8 @@ const data = [
      
      { title: "Physics", description: "Focuses on understanding the fundamental laws of nature, matter, energy, space, and time through observation, experimentation, and mathematical analysis.", competitions: [] },
           
+     { title: "Psychology", description: "Focuses on the study of human behavior, mental processes, and emotional experiences to understand individuals and groups through various theories, research methods, and applications.", competitions: [] },
+
      { title: "Robotics", description: "Focuses on designing, building, and programming machines that can perform tasks autonomously or semi-autonomously.", competitions: [] },
 
      { title: "STEM Research", description: "Focuses on research projects that involve science, technology, engineering, and mathematics, encouraging students to apply their knowledge and creativity in these areas.", competitions: [] },
