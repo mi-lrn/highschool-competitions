@@ -39,9 +39,9 @@ https://mi-lrn.github.io/highschool-competitions/
 
 #### "[Name of Competition] (Optional) => [(Difficulty [Stars]): [Description (Normally ends with age/grade eligibility)] [Homepage]"
 
-#### Ex. "Wharton Global High School Investment Competition (Difficulty ★★★★☆): Teams manage a virtual portfolio, making investment decisions based on market conditions and economic factors. Teams compete for the best portfolio performance while gaining valuable experience in financial analysis and decision-making. Open to grades 9-12 https://globalyouth.wharton.upenn.edu/competitions/investment-competition/"
+#### Ex. "Wharton Global High School Investment Competition (Difficulty ★★★★☆): Teams manage a virtual portfolio, making investment decisions based on market conditions and economic factors. Teams compete for the best portfolio performance while gaining valuable experience in financial analysis and decision-making. Open to grades 9-12. https://globalyouth.wharton.upenn.edu/competitions/investment-competition/"
 
-#### Ex. "USA National Chemistry Olympiad: Challenges students with advanced chemistry concepts through rigorous exams, with top performers advancing to represent the US at the International Chemistry Olympiad. Open to grades 9-12 https://www.acs.org/education/olympiad.html"
+#### Ex. "USA National Chemistry Olympiad: Challenges students with advanced chemistry concepts through rigorous exams, with top performers advancing to represent the US at the International Chemistry Olympiad. Open to grades 9-12. https://www.acs.org/education/olympiad.html"
 
 - Once you're done, make sure to make a new pull request on this repository, requesting to merge your main branch with this repository's main branch. Mantainers should be allowed to make edits to the pull request in case there is a basic error.
 
