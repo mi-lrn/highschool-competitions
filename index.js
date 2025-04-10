@@ -28,7 +28,7 @@ const data = [
      
      { title: "Math", description: "Focuses on the study of numbers, shapes, patterns, and structures, using logical reasoning and quantitative methods to solve problems and describe relationships.", competitions: [] },
 
-     { title: "Music", description: "Focuses on creating and organizing sound through rhythm, melody, and harmony to evoke emotions, communicate ideas, and provide artistic or cultural expression.", competitions: [] },
+     { title: "Music & Audio", description: "Focuses on creating and organizing sound through rhythm, melody, and harmony to evoke emotions, communicate ideas, and provide artistic or cultural expression.", competitions: [] },
      
      { title: "Nature & Environmental Science", description: "Focuses on natural ecosystems, wildlife, and the impact of human activity on the planet, with an emphasis on sustainability and conservation.", competitions: [] },
      
