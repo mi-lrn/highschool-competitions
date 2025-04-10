@@ -1,12 +1,9 @@
 const data = [
-     { title: "Aerospace Engineering", description: "Focuses on the design, development, testing, and production of aircrafts, spacecrafts, and related systems.", competitions: [] },
      
      { title: "Architecture", description: "Focuses on the art and science of designing and constructing buildings and structures, blending functionality and aesthetics to create spaces that serve human needs.", competitions: [] },
      
      { title: "Art", description: "Focuses on expressing creativity, emotions, and ideas through various mediums to engage the senses and provoke emotional responses.", competitions: [] },
-     
-     { title: "Astronomy and Astrophysics", description: "Focuses on the study of celestial objects, space, and the universe as a whole, exploring the origin and behavior of stars, planets, and galaxies.", competitions: [] },
-     
+          
      { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: [] },
      
      { title: "Business & Finance", description: "Focuses on applying business strategies, financial analysis, and decision-making skills to solve real-world challenges, often involving presentations and simulations of corporate environments.", competitions: [] },
@@ -40,6 +37,8 @@ const data = [
      { title: "Psychology", description: "Focuses on the study of human behavior, mental processes, and emotional experiences to understand individuals and groups through various theories, research methods, and applications.", competitions: [] },
 
      { title: "Robotics", description: "Focuses on designing, building, and programming machines that can perform tasks autonomously or semi-autonomously.", competitions: [] },
+
+     { title: "Space", description: "Focuses on the universe and everything in it, including stars, planets, galaxies, and the empty space that surrounds them.", competitions: [] },
 
      { title: "STEM Research", description: "Focuses on research projects that involve science, technology, engineering, and mathematics, encouraging students to apply their knowledge and creativity in these areas.", competitions: [] },
      
