@@ -5,7 +5,7 @@ const data = [
      
      { title: "Art", description: "Focuses on expressing creativity, emotions, and ideas through various mediums to engage the senses and provoke emotional responses.", competitions: [] },
      
-     { title: "Astronomy", description: "Focuses on the study of celestial objects, space, and the universe as a whole, exploring the origin and behavior of stars, planets, and galaxies.", competitions: [] },
+     { title: "Astronomy and Astrophysics", description: "Focuses on the study of celestial objects, space, and the universe as a whole, exploring the origin and behavior of stars, planets, and galaxies.", competitions: [] },
      
      { title: "Biology", description: "Focuses on living organisms, their structures, functions, interactions, and the processes that sustain life.", competitions: [] },
      
