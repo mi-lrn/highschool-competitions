@@ -46,7 +46,7 @@ const data = [
      
      { title: "Writing", description: "Focuses on language, literature, and composition, specifically reading and writing to understand and communicate ideas effectively.", competitions: [] },
      
-     { title: "Volunteering", description: "Focuses on service commitment and willingness to help others.", competitions: [] },
+     { title: "Volunteering & Community Service", description: "Focuses on helping others and contributing to the community through charitable work and volunteer efforts.", competitions: [] },
  ];
  async function fetchCompetitions(dictionaries) {
     const response = await fetch('competitions.json');
