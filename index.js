@@ -22,6 +22,8 @@ const data = [
      
      { title: "Film", description: "Focuses on showcasing creativity, storytelling, and technical skills through the production of original films, encouraging participants to craft compelling visuals within a set theme.", competitions: [] },
      
+     { title: "Foreign Language & Linguistics", description: "Focuses on testing knowledge of grammar, vocabulary, translation, cultural context, and the structure and use of communication systems across different languages and regions.", competitions: [] },
+     
      { title: "General", description: "Category for competitions that may encompass more than one subject.", competitions: [] },
 
      { title: "History", description: "Focuses on past events, people, and societies to understand their impact on the present and shape future decisions.", competitions: [] },
