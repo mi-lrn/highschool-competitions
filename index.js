@@ -32,7 +32,7 @@ const data = [
 
      { title: "Music & Audio", description: "Focuses on creating and organizing sound through rhythm, melody, and harmony to evoke emotions, communicate ideas, and provide artistic or cultural expression.", competitions: [] },
      
-     { title: "Nature & Environmental Science", description: "Focuses on natural ecosystems, wildlife, and the impact of human activity on the planet, with an emphasis on sustainability and conservation.", competitions: [] },
+     { title: "Nature, Horticulture, & Environmental Science", description: "Focuses on natural ecosystems, wildlife, and the impact of human activity on the planet, with an emphasis on sustainability and conservation.", competitions: [] },
 
      { title: "Photography", description: "Focuses on capturing moments, scenes, and perspectives to convey emotion, meaning, or aesthetic value.", competitions: [] },
      
