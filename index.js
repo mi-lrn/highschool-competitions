@@ -1,5 +1,4 @@
 const data = [
-     
      { title: "Architecture", description: "Focuses on the art and science of designing and constructing buildings and structures, blending functionality and aesthetics to create spaces that serve human needs.", competitions: [] },
      
      { title: "Art", description: "Focuses on expressing creativity, emotions, and ideas through various mediums to engage the senses and provoke emotional responses.", competitions: [] },
@@ -51,54 +50,51 @@ const data = [
      { title: "Writing", description: "Focuses on language, literature, and composition, specifically reading and writing to understand and communicate ideas effectively.", competitions: [] },
      
      { title: "Volunteering & Community Service", description: "Focuses on helping others and contributing to the community through charitable work and volunteer efforts.", competitions: [] },
- ];
- async function fetchCompetitions(dictionaries) {
+];
+async function fetchCompetitions(dictionaries) {
     const response = await fetch('competitions.json');
     const competitionsData = await response.json();
     dictionaries.forEach(dictionary => {
-         try {
-         dictionary.competitions = competitionsData.competitions[dictionary.title];
-         } catch {
-         //Do Nothing
-         };
+        try {
+            dictionary.competitions = competitionsData.competitions[dictionary.title];
+        } catch {
+            // Do Nothing
+        }
     });
- }
- function filterResults() {
-     const query = document.getElementById('search-bar').value.toLowerCase();
-     const resultsContainer = document.getElementById('results');
-     const competitionsContainer = document.getElementById('competitions');
-     resultsContainer.innerHTML = '';
-     competitionsContainer.innerHTML = '';
-     if (query) {
-         const filteredData = data.filter(item => item.title.toLowerCase().includes(query));
-         filteredData.forEach(item => {
-             const resultBox = document.createElement('div');
-             resultBox.className = 'result-box';
-             resultBox.innerHTML = `
-                 <div class="result-title">${item.title}</div>
-                 <div class="result-description">${item.description}</div>
-             `;
-             resultBox.onclick = () => {
-                 showCompetitions(item.competitions);
-                 resultsContainer.style.display = 'none';
-             };
-             resultsContainer.appendChild(resultBox);
-         });
-         if (resultsContainer.childElementCount > 0) {
-             resultsContainer.style.display = 'block';
-         } else {
-             resultsContainer.style.display = 'none';
-         }
-     } else {
-         resultsContainer.style.display = 'none';
-         showAllCompetitions();
-     }
- }
- function showCompetitions(competitions) {
-     const competitionsContainer = document.getElementById('competitions');
-     competitionsContainer.innerHTML = '<strong>Competitions:</strong><br>';  
-     competitions.forEach(competition => {
+}
+function filterResults() {
+    const query = document.getElementById('search-bar').value.toLowerCase();
+    const resultsContainer = document.getElementById('results');
+    const competitionsContainer = document.getElementById('competitions');
+    resultsContainer.innerHTML = '';
+    competitionsContainer.innerHTML = '';
+    if (query) {
+        const filteredData = data.filter(item => item.title.toLowerCase().includes(query));
+        filteredData.forEach(item => {
+            const resultBox = document.createElement('div');
+            resultBox.className = 'result-box';
+            resultBox.innerHTML = `
+                <div class="result-title">${item.title}</div>
+                <div class="result-description">${item.description}</div>
+            `;
+            resultBox.onclick = () => {
+                showCompetitions(item.competitions);
+                resultsContainer.style.display = 'none';
+            };
+            resultsContainer.appendChild(resultBox);
+        });
+        resultsContainer.style.display = resultsContainer.childElementCount > 0 ? 'block' : 'none';
+    } else {
+        resultsContainer.style.display = 'none';
+        showAllCompetitions();
+    }
+}
+function showCompetitions(competitions) {
+    const competitionsContainer = document.getElementById('competitions');
+    competitionsContainer.innerHTML = '<strong>Competitions:</strong><br>';  
+    competitions.forEach(competition => {
         const competitionItem = document.createElement('div');
+        competitionItem.className = 'competition-card';
         const colonIndex = competition.indexOf(':');
         const name = competition.substring(0, colonIndex).trim();
         const description = competition.substring(colonIndex + 1).trim();
@@ -109,80 +105,49 @@ const data = [
             descriptionBeforeUrl = description.substring(0, urlIndex).trim();
             url = description.substring(urlIndex).trim();
         }
-        const nameSpan = document.createElement('span');
-        nameSpan.textContent = name + ': ';
-        nameSpan.style.fontWeight = 'bold';
-        nameSpan.style.display = 'block';
-        nameSpan.classList.add('SpaceGrotesk-Bold');
-        const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = "Description: " + descriptionBeforeUrl + " ";
-        descriptionSpan.style.fontStyle = 'italic';
-        descriptionSpan.style.display = 'block';
-        var urlLink;
-        if (url) {
-            urlLink = document.createElement('a');
-            urlLink.href = url;
-            urlLink.textContent = "Link: " + url;
-        }
-        competitionItem.appendChild(nameSpan);
-        competitionItem.appendChild(descriptionSpan);
-        if (urlLink) {
-            competitionItem.appendChild(urlLink);
-        }
-        competitionsContainer.appendChild(document.createElement('br'));
+        competitionItem.innerHTML = `
+            <h3 class="competition-title">${name}</h3>
+            <p class="competition-description">${descriptionBeforeUrl}</p>
+            ${url ? `<a href="${url}" class="competition-link" target="_blank">Link: ${url}</a>` : ''}
+        `;
         competitionsContainer.appendChild(competitionItem);
-     });
- }
- function showAllCompetitions() {
-     const competitionsContainer = document.getElementById('competitions');
-     competitionsContainer.innerHTML = '<strong>All Competitions:</strong><br>'; 
-     const allCompetitions = new Set();
-     data.forEach(item => {
-         item.competitions.forEach(competition => {
-             allCompetitions.add(competition);
-         });
-     });
-     var names = [];
-     allCompetitions.forEach(competition => {
+    });
+}
+function showAllCompetitions() {
+    const competitionsContainer = document.getElementById('competitions');
+    competitionsContainer.innerHTML = '<strong>All Competitions:</strong><br>'; 
+    const allCompetitions = new Set();
+    data.forEach(item => {
+        item.competitions.forEach(competition => {
+            allCompetitions.add(competition);
+        });
+    });
+    var names = [];
+    allCompetitions.forEach(competition => {
         const colonIndex = competition.indexOf(':');
         const name = competition.substring(0, colonIndex).trim();
         if (!names.includes(name)) {
-        names.push(name)
-        const competitionItem = document.createElement('div');
-        const description = competition.substring(colonIndex + 1).trim();
-        const urlIndex = description.indexOf('http');
-        let descriptionBeforeUrl = description;
-        let url = '';
-        if (urlIndex !== -1) {
-            descriptionBeforeUrl = description.substring(0, urlIndex).trim();
-            url = description.substring(urlIndex).trim();
+            names.push(name);
+            const competitionItem = document.createElement('div');
+            competitionItem.className = 'competition-card';
+            const description = competition.substring(colonIndex + 1).trim();
+            const urlIndex = description.indexOf('http');
+            let descriptionBeforeUrl = description;
+            let url = '';
+            if (urlIndex !== -1) {
+                descriptionBeforeUrl = description.substring(0, urlIndex).trim();
+                url = description.substring(urlIndex).trim();
+            }
+            competitionItem.innerHTML = `
+                <h3 class="competition-title">${name}</h3>
+                <p class="competition-description">${descriptionBeforeUrl}</p>
+                ${url ? `<a href="${url}" class="competition-link" target="_blank">Link: ${url}</a>` : ''}
+            `;
+            competitionsContainer.appendChild(competitionItem);
         }
-        const nameSpan = document.createElement('span');
-        nameSpan.textContent = name + ': ';
-        nameSpan.style.fontWeight = 'bold';
-        nameSpan.style.display = 'block';
-        nameSpan.classList.add('SpaceGrotesk-Bold');
-        const descriptionSpan = document.createElement('span');
-        descriptionSpan.textContent = "Description: " + descriptionBeforeUrl + " ";
-        descriptionSpan.style.fontStyle = 'italic';
-        descriptionSpan.style.display = 'block';
-        var urlLink;
-        if (url) {
-            urlLink = document.createElement('a');
-            urlLink.href = url;
-            urlLink.textContent = "Link: " + url;
-        }
-        competitionItem.appendChild(nameSpan);
-        competitionItem.appendChild(descriptionSpan);
-        if (urlLink) {
-            competitionItem.appendChild(urlLink);
-        }
-        competitionsContainer.appendChild(document.createElement('br'));
-        competitionsContainer.appendChild(competitionItem);
-        }
-     });
- }
- window.addEventListener('load', async () => {
+    });
+}
+window.addEventListener('load', async () => {
     await fetchCompetitions(data);
     showAllCompetitions();
- });
+});
